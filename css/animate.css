@@ -1,0 +1,81 @@
+/*导航栏*/
+#photo:hover{
+	animation: shadow 2s forwards 1;
+	-o-animation: shadow 2s forwards 1;
+	-ms-animation: shadow 2s forwards 1;
+	-moz-animation: shadow 2s forwards 1;
+	-webkit-animation: shadow 2s forwards 1;
+}
+@keyframes shadow{
+	0%{box-shadow: 0px 0px 0px #3498DB;}
+    50%{box-shadow: 0px 0px 30px #3498DB;}
+    100%{box-shadow: 0px 0px 0px #3498DB;}
+}
+@-o-keyframes shadow{
+	0%{box-shadow: 0px 0px 0px #3498DB;}
+    50%{box-shadow: 0px 0px 30px #3498DB;}
+    100%{box-shadow: 0px 0px 0px #3498DB;}
+}
+@-ms-keyframes shadow{
+	0%{box-shadow: 0px 0px 0px #3498DB;}
+    50%{box-shadow: 0px 0px 30px #3498DB;}
+    100%{box-shadow: 0px 0px 0px #3498DB;}
+}
+@-moz-keyframes shadow{
+	0%{box-shadow: 0px 0px 0px #3498DB;}
+    50%{box-shadow: 0px 0px 30px #3498DB;}
+    100%{box-shadow: 0px 0px 0px #3498DB;}
+}
+@-webkit-keyframes shadow{
+	0%{box-shadow: 0px 0px 0px #3498DB;}
+    50%{box-shadow: 0px 0px 30px #3498DB;}
+    100%{box-shadow: 0px 0px 0px #3498DB;}
+}
+/*主页*/
+.home-explore img:hover{
+	animation-play-state: paused;
+	-o-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-webkit-animation-play-state: paused;
+}
+@keyframes explore {
+	from {
+		top: -5px;
+	}
+	to {
+		top: 5px;
+	}
+}
+@-o-keyframes explore {
+	from {
+		top: -5px;
+	}
+	to {
+		top: 5px;
+	}
+}
+@-ms-keyframes explore {
+	from {
+		top: -5px;
+	}
+	to {
+		top: 5px;
+	}
+}
+@-moz-keyframes explore {
+	from {
+		top: -5px;
+	}
+	to {
+		top: 5px;
+	}
+}
+@-webkit-keyframes explore {
+	from {
+		top: -5px;
+	}
+	to {
+		top: 5px;
+	}
+}
